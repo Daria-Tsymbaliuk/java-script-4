@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Lazy Loading Images</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <h1>Приклад лінійного завантаження зображень</h1>
+
+  <button id="loadAll">Завантажити всі зображення</button>
+
+  <div class="gallery">
+    <img data-src="https://picsum.photos/id/1015/800/600" alt="Фото 1" class="lazy">
+    <img data-src="https://picsum.photos/id/1016/800/600" alt="Фото 2" class="lazy">
+    <img data-src="https://picsum.photos/id/1018/800/600" alt="Фото 3" class="lazy">
+    <img data-src="https://picsum.photos/id/1020/800/600" alt="Фото 4" class="lazy">
+    <img data-src="https://picsum.photos/id/1021/800/600" alt="Фото 5" class="lazy">
+  </div>
+
+  <script src="./js/index.js" ></script>
+</body>
+</html>
